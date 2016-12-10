@@ -1,0 +1,38 @@
+#fake_watch, #watch, #canvas {
+    position: absolute;
+    width : 100%;
+}
+
+#pointer {
+    position : absolute;
+    background-image : url("/images/pointer.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width : 2%;
+    height: 23%;
+    top: 23%;
+    left: 47.2%;
+    transform-origin: 50% 80% 0;
+    transform: rotate(-140deg);
+}
+
+#pointer .circle {
+    position : absolute;
+    width : 36px;
+    left: -170%;
+    top: 0;
+}
+
+.tip {
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+    text-align: center;
+}
+
+.tip .icon {
+    width: 30px;
+}
+
+

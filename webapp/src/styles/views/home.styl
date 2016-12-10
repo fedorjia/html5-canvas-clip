@@ -1,0 +1,46 @@
+.home-view {
+    .dim, .clip {
+        position : absolute;
+        top: 0;
+        left: 0;
+        width : 100%;
+    }
+
+    .clip {
+        opacity: 0;
+        img {
+            width : 100%;
+        }
+    }
+
+    .pointer {
+        position : absolute;
+        background-image : url("/static/icons/pointer.png");
+        contain()
+        width : 2%;
+        height: 23%;
+        top: 23%;
+        left: 47.2%;
+        transform-origin: 50% 80% 0;
+        transform: rotate(-140deg);
+        .circle {
+            position : absolute;
+            width : 36px;
+            left: -170%;
+            top: 0;
+        }
+    }
+
+    .ripple {
+
+    }
+
+    .tip {
+        .icon {
+
+        }
+        .text {
+
+        }
+    }
+}

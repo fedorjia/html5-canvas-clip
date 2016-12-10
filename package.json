@@ -1,0 +1,22 @@
+{
+  "name": "html5-canvas-clip-demo",
+  "version": "1.0.0",
+  "description": "html5 canvas clip demo",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "html5 canvas clip, backbone"
+  ],
+  "author": "Fedor",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

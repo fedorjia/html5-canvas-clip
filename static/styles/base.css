@@ -1,0 +1,159 @@
+html, body {
+	font-size: 62.5%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+	box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #efefef;
+    overflow: hidden;
+	font-family: "-apple-system","Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Source Han Sans","Noto Sans CJK Sc","Microsoft YaHei",sans-serif;
+	color: #3e3e3e;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	font-size: 1.6rem;
+	line-height: 1.6;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-touch-callout: none;
+	-webkit-user-drag: none;
+}
+
+*:focus {
+	outline: none;
+}
+
+::-webkit-input-placeholder {
+	color: #bfbfbf;
+}
+
+::-moz-placeholder {
+	color: #bfbfbf;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #bfbfbf;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+	background: rgb(0, 255, 189) !important;
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow: inset 0 0 0px 9999px white;
+}
+
+input, textarea {
+	-webkit-user-select: text;
+	-ms-user-select: auto;
+	-moz-user-select: text;
+}
+
+textarea, input, select {
+	background: none;
+	background-color: transparent;
+	-webkit-appearance: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, ul, li {
+	margin: 0;
+}
+
+
+.view {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.start {
+	-webkit-animation-play-state: running;
+	-moz-animation-play-state: running;
+	-ms-animation-play-state: running;
+	-o-animation-play-state: running;
+	animation-play-state: running;
+}
+.stop {
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
+}
+
+.rotate {
+	-webkit-animation: rotate 1.8s linear 0s ;
+	-moz-animation: rotate 1.8s linear 0s ;
+	-ms-animation: rotate 1.8s linear 0s ;
+	-o-animation: rotate 1.8s linear 0s ;
+	animation: rotate 1.8s linear 0s ;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes rotate {
+	from {
+		-ms-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	to {
+		-ms-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes rotate {
+	from {
+		-ms-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	to {
+		-ms-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}

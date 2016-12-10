@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible">
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+	<title>html5-canvas-clip-demo</title>
+	<link rel="stylesheet" href="/styles/base.css"/>
+	<link rel="stylesheet" href="/styles/index.css"/>
+</head>
+<body>
+
+<div class="view" id="pointer_view">
+	<img id="fake_watch" src="/images/fake.png" />
+	<img id="canvas" src="/images/dim.png"/>
+	<div id="pointer">
+		<img class="circle" src="/images/circle.png"/>
+	</div>
+	<div class="tip">
+		<img class="icon start rotate" src="/images/rotate.png"/>
+		<div class="text">Sliding pointer, light up the dial</div>
+	</div>
+</div>
+
+<div class="view" id="finish_view">
+	<img id="watch" src="/images/watch.png" />
+	<div class="tip">
+		<div class="text">Beauty & Delicacy</div>
+	</div>
+</div>
+
+<script src="/vendors/jquery.min.js"></script>
+<script src="/vendors/hammer.min.js"></script>
+<script src="/scripts/clip.js"></script>
+<script src="/scripts/index.js"></script>
+</body>
+</html>
